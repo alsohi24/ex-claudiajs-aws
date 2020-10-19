@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "quryappgwaws-executor",
+    "name": "quryappgwaws",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "74sgkj4ds7",
+    "url": "https://74sgkj4ds7.execute-api.us-east-1.amazonaws.com/latest"
+  }
+}

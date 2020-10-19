@@ -1,0 +1,26 @@
+{
+  "name": "quryappgwaws",
+  "version": "1.2.0",
+  "description": "Backend for Serverless qury",
+  "main": "lambda.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "claudia create --handler lambda.handler --deploy-proxy-api --region us-east-1",
+    "update": "claudia update --profile claudia",
+    "generate-proxy": "claudia generate-serverless-express-proxy --express-module app"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "aws-sdk": "^2.771.0",
+    "aws-serverless-express": "^3.3.8",
+    "body-parser": "^1.19.0",
+    "claudia": "^5.1.1",
+    "claudia-api-builder": "^4.1.2",
+    "express": "~4.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^5.21.7"
+  }
+}
